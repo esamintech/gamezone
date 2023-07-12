@@ -27,4 +27,15 @@ export const globalStyles = StyleSheet.create({
     marginTop: 6,
     textAlign: "center",
   },
+  card: {
+    borderRadius: 6,
+    elevation: 3,
+    backgroundColor: "#fff",
+    shadowOffset: { width: 1, height: 3 },
+    shadowColor: "#333",
+    shadowOpacity: 0.3,
+    shadowRadius: 2,
+    marginVertical: 6,
+    marginHorizontal: 4,
+  },
 });
