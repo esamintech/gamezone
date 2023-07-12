@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./screens/Home";
+import Navigateur from "./routes/HomeStack";
 export default function App() {
-  return <Home />;
+  return <Navigateur />;
 }
